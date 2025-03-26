@@ -12547,6 +12547,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 261.62) (xy 297.18 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be0cf9b-9fe2-4d8a-9999-f6d985156279")
+	)
+	(wire
+		(pts
 			(xy 176.53 361.95) (xy 176.53 363.22)
 		)
 		(stroke
@@ -12577,6 +12587,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 132.08) (xy 71.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26576705-f8e8-4ada-8dd0-9ce515db2b42")
+	)
+	(wire
+		(pts
 			(xy 93.98 254) (xy 86.36 254)
 		)
 		(stroke
@@ -12587,6 +12607,36 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 132.08) (xy 71.12 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4792fe4c-24eb-4903-9e16-454a17647058")
+	)
+	(wire
+		(pts
+			(xy 299.72 264.16) (xy 297.18 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5e8627-98bc-4e19-bd26-40b7469e08c1")
+	)
+	(wire
+		(pts
+			(xy 71.12 109.22) (xy 76.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554f7edb-8436-4bbc-a587-ad17f180875a")
+	)
+	(wire
+		(pts
 			(xy 176.53 363.22) (xy 176.53 364.49)
 		)
 		(stroke
@@ -12594,6 +12644,16 @@
 			(type default)
 		)
 		(uuid "74dfb68d-92f7-44f7-b81b-a0db997cd64d")
+	)
+	(wire
+		(pts
+			(xy 299.72 299.72) (xy 297.18 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "769d2ebd-fff1-4656-85dc-93dd839da7b4")
 	)
 	(wire
 		(pts
@@ -12644,6 +12704,16 @@
 			(type default)
 		)
 		(uuid "e990a1e6-96f0-4123-a8b1-e0d8d240f847")
+	)
+	(wire
+		(pts
+			(xy 299.72 302.26) (xy 297.18 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4052e59-513b-4637-b7cd-e6a319486a02")
 	)
 	(wire
 		(pts
@@ -15122,7 +15192,7 @@
 	)
 	(symbol
 		(lib_id "Interface_UART:SN75176AP")
-		(at 313.69 260.35 0)
+		(at 289.56 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15131,7 +15201,7 @@
 		(fields_autoplaced yes)
 		(uuid "38386cf7-fc81-491c-bd8d-64f3add9f55c")
 		(property "Reference" "U20"
-			(at 315.8333 247.65 0)
+			(at 291.7033 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15140,7 +15210,7 @@
 			)
 		)
 		(property "Value" "SN75176AP"
-			(at 315.8333 250.19 0)
+			(at 291.7033 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15149,7 +15219,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 313.69 273.05 0)
+			(at 289.56 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15158,7 +15228,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn75176a.pdf"
-			(at 354.33 265.43 0)
+			(at 330.2 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15167,7 +15237,7 @@
 			)
 		)
 		(property "Description" "Differential RS-422/RS-485 bus transceiver, DIP-8"
-			(at 313.69 260.35 0)
+			(at 289.56 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15276,7 +15346,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 313.69 250.19 0)
+		(at 289.56 287.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15285,7 +15355,7 @@
 		(fields_autoplaced yes)
 		(uuid "397fd677-3a41-4740-bdde-54a52acf868d")
 		(property "Reference" "#PWR045"
-			(at 313.69 254 0)
+			(at 289.56 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15294,7 +15364,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 313.69 245.11 0)
+			(at 289.56 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15302,7 +15372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 250.19 0)
+			(at 289.56 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15311,7 +15381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 250.19 0)
+			(at 289.56 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15320,7 +15390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 313.69 250.19 0)
+			(at 289.56 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18292,16 +18362,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 278.13 367.03 0)
+		(at 304.8 264.16 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "75e6eec9-4a0a-4bd6-a675-5752911f9eef")
 		(property "Reference" "J18"
-			(at 280.67 367.0299 0)
+			(at 307.34 264.1601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18310,7 +18380,7 @@
 			)
 		)
 		(property "Value" "RS485 Aus"
-			(at 280.67 369.5699 0)
+			(at 307.34 261.6201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18319,7 +18389,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 278.13 367.03 0)
+			(at 304.8 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18328,7 +18398,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 278.13 367.03 0)
+			(at 304.8 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18337,7 +18407,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 278.13 367.03 0)
+			(at 304.8 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18362,16 +18432,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 278.13 379.73 0)
+		(at 304.8 302.26 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7624515c-eb57-4ce6-b07d-7b394bc2f352")
 		(property "Reference" "J19"
-			(at 280.67 379.7299 0)
+			(at 307.34 302.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18380,7 +18450,7 @@
 			)
 		)
 		(property "Value" "RS485 Ein"
-			(at 280.67 382.2699 0)
+			(at 307.34 299.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18389,7 +18459,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 278.13 379.73 0)
+			(at 304.8 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18398,7 +18468,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 278.13 379.73 0)
+			(at 304.8 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18407,7 +18477,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 278.13 379.73 0)
+			(at 304.8 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20078,7 +20148,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 270.51 0)
+		(at 289.56 307.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20087,7 +20157,7 @@
 		(fields_autoplaced yes)
 		(uuid "930fc46b-e1af-4349-9d63-9b4fec51e2a1")
 		(property "Reference" "#PWR015"
-			(at 313.69 276.86 0)
+			(at 289.56 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20096,7 +20166,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 275.59 0)
+			(at 289.56 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20104,7 +20174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 270.51 0)
+			(at 289.56 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20113,7 +20183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 270.51 0)
+			(at 289.56 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20122,7 +20192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 313.69 270.51 0)
+			(at 289.56 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
