@@ -8892,6 +8892,295 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -12528,16 +12817,16 @@
 		)
 	)
 	(junction
-		(at 189.23 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c47528e-a361-43cd-9cdc-9064eebf5178")
-	)
-	(junction
 		(at 176.53 368.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83a39a5f-3a9b-46c8-85ef-b91e60225fdc")
+	)
+	(junction
+		(at 345.44 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a58f3c3c-2478-4201-8534-e6d4cc121391")
 	)
 	(junction
 		(at 176.53 363.22)
@@ -12567,23 +12856,23 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 99.06) (xy 191.77 99.06)
+			(xy 337.82 29.21) (xy 337.82 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21ec710c-fda3-417c-97a5-5535b5740f4b")
+		(uuid "1136eafe-f6ba-440d-91f6-e0c8e4d787d3")
 	)
 	(wire
 		(pts
-			(xy 186.69 99.06) (xy 189.23 99.06)
+			(xy 337.82 29.21) (xy 345.44 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2498f9cb-2855-4ac8-b424-48081d4a73ca")
+		(uuid "12c421e2-aa5c-4ba9-905b-a2c4e70ba66b")
 	)
 	(wire
 		(pts
@@ -12594,6 +12883,26 @@
 			(type default)
 		)
 		(uuid "26576705-f8e8-4ada-8dd0-9ce515db2b42")
+	)
+	(wire
+		(pts
+			(xy 360.68 48.26) (xy 360.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2746e93b-155c-417e-92f8-c09bd75a652e")
+	)
+	(wire
+		(pts
+			(xy 304.8 179.07) (xy 309.88 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a00a8e-220c-471b-9c86-12f1c31a610a")
 	)
 	(wire
 		(pts
@@ -12637,6 +12946,46 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 388.62) (xy 69.85 388.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5615429a-7ade-4f9d-9484-5619f4eae8c0")
+	)
+	(wire
+		(pts
+			(xy 304.8 154.94) (xy 304.8 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5786493a-e19b-413b-8b64-c818638376f9")
+	)
+	(wire
+		(pts
+			(xy 345.44 27.94) (xy 345.44 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b7da48-6af5-4628-b593-ca55d0e53753")
+	)
+	(wire
+		(pts
+			(xy 58.42 386.08) (xy 69.85 386.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71402cd1-e7e4-4e32-8b94-1776b3841843")
+	)
+	(wire
+		(pts
 			(xy 176.53 363.22) (xy 176.53 364.49)
 		)
 		(stroke
@@ -12677,6 +13026,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 29.21) (xy 345.44 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825b300e-6eec-407b-a02d-dbedecd63421")
+	)
+	(wire
+		(pts
 			(xy 261.62 205.74) (xy 261.62 223.52)
 		)
 		(stroke
@@ -12694,6 +13053,56 @@
 			(type default)
 		)
 		(uuid "a520dda3-fdbe-4d78-a8ad-e48c4ccd4a60")
+	)
+	(wire
+		(pts
+			(xy 335.28 154.94) (xy 304.8 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56e6935-932c-40f8-9823-0800ec48cf69")
+	)
+	(wire
+		(pts
+			(xy 50.8 383.54) (xy 69.85 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23959a6-c25d-46e2-9307-8f1409d1b008")
+	)
+	(wire
+		(pts
+			(xy 337.82 45.72) (xy 337.82 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c537b40b-f69a-4eef-aee9-3217870fe789")
+	)
+	(wire
+		(pts
+			(xy 335.28 168.91) (xy 335.28 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabeb060-6572-4773-abd8-b70bbd1ff5ee")
+	)
+	(wire
+		(pts
+			(xy 124.46 411.48) (xy 132.08 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6459212-a7d2-4621-a70e-2afce981a75f")
 	)
 	(wire
 		(pts
@@ -13610,6 +14019,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 360.68 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "11cc081b-6917-4a41-8386-698b55f45091")
+		(property "Reference" "R10"
+			(at 363.22 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 363.22 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 358.902 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 360.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfc1cf1d-b00c-43c3-b9f0-698b7de70005")
+		)
+		(pin "1"
+			(uuid "3bd8bb3e-03e3-418c-8665-62213d70167a")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 208.28 0)
 		(unit 1)
@@ -13670,6 +14149,146 @@
 			(project "Steuereinheit"
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 431.8 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "156ae4d8-9db6-4f05-8f40-f5f3c6d1910f")
+		(property "Reference" "R20"
+			(at 434.34 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 434.34 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 430.022 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 431.8 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 431.8 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0db7855-bbc0-45cd-b026-03876d781518")
+		)
+		(pin "1"
+			(uuid "e0218105-2ff6-4ab8-b1d1-479dc74f52e4")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 411.48 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15bd4e25-1013-4348-b51a-6b518c70f17c")
+		(property "Reference" "D4"
+			(at 414.02 40.9574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SD103"
+			(at 414.02 43.4974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 411.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 411.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 411.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76152258-d961-4203-b831-eb307e22bba4")
+		)
+		(pin "2"
+			(uuid "0a14efb2-c0e2-4553-88dc-c8bd58d64e74")
+		)
+		(instances
+			(project ""
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -14123,6 +14742,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 472.44 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "218e31fb-6a5d-426b-b66a-bd71f87fabab")
+		(property "Reference" "R119"
+			(at 474.98 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 474.98 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 470.662 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 472.44 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 472.44 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7288c942-e327-450c-95a9-d8a6e5d32ee5")
+		)
+		(pin "1"
+			(uuid "54254e39-fa27-453d-b412-c9690dd901ee")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 318.77 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14186,6 +14875,76 @@
 			(project "Steuereinheit"
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 370.84 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25708209-4a6f-4b61-b328-ef99ffc16128")
+		(property "Reference" "R12"
+			(at 373.38 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 373.38 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 369.062 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 370.84 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 370.84 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02681ac0-95e0-4a4e-9a01-b3cc79524a5f")
+		)
+		(pin "1"
+			(uuid "78398492-240e-4db3-9990-8011d5eba258")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14437,6 +15196,76 @@
 			(project "Steuereinheit"
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 299.72 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e1cd898-11ef-4d2d-8ec6-af2eab17a1e6")
+		(property "Reference" "C2"
+			(at 303.53 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 303.53 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 300.6852 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 299.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf3f0edb-5528-4c68-818f-422355ac2146")
+		)
+		(pin "2"
+			(uuid "6dec32f4-0266-4ed4-8254-cb11abadea39")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -14737,6 +15566,76 @@
 			(project "Steuereinheit"
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 391.16 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34059ed2-e800-4d12-bfee-dcaaa33bf5f1")
+		(property "Reference" "C21"
+			(at 394.97 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 394.97 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 392.1252 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 391.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cf1ebe3-c0fb-440c-b22e-436ea47c8780")
+		)
+		(pin "2"
+			(uuid "5068d2fe-2847-4f27-8483-acee0b6746c5")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -15411,6 +16310,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 421.64 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aadd248-a86e-48ef-b3e8-adb6588cb1b1")
+		(property "Reference" "R19"
+			(at 424.18 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 424.18 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 419.862 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 421.64 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 421.64 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff0d6f8f-3b1b-43f2-a3ba-08edff66c129")
+		)
+		(pin "1"
+			(uuid "4f8658bb-fd08-4628-940d-42b3addf7bdf")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 97.79 154.94 0)
 		(unit 1)
@@ -15786,6 +16755,76 @@
 			(project ""
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 492.76 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "412f62fb-3daf-4d8c-88a0-30bdd4dfcc83")
+		(property "Reference" "R23"
+			(at 495.3 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 495.3 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 490.982 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 492.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 492.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d9cf377-a73c-4cf8-bf03-59abc789a4a4")
+		)
+		(pin "1"
+			(uuid "5129af1f-c710-4238-b615-0b5c16bcf10f")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -16466,6 +17505,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 345.44 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4daaaca7-c879-45da-9bfa-1dd6073bd143")
+		(property "Reference" "R9"
+			(at 347.98 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 347.98 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 347.218 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 345.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88f27a29-2873-4dab-a83f-00347839b68d")
+		)
+		(pin "1"
+			(uuid "1f673b91-7b2e-41ca-9e88-bdabfc12a99f")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 176.53 359.41 90)
 		(unit 1)
@@ -17139,7 +18248,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 189.23 99.06 0)
+		(at 186.69 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17148,7 +18257,7 @@
 		(fields_autoplaced yes)
 		(uuid "57acd7fb-3dc4-4ffe-a851-4cbddff5827d")
 		(property "Reference" "#PWR049"
-			(at 189.23 102.87 0)
+			(at 186.69 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17157,7 +18266,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 189.23 93.98 0)
+			(at 186.69 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17165,7 +18274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 99.06 0)
+			(at 186.69 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17174,7 +18283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 99.06 0)
+			(at 186.69 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17183,7 +18292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 189.23 99.06 0)
+			(at 186.69 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17416,6 +18525,146 @@
 			(project "Steuereinheit"
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 584.2 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fa56e85-170e-4bc9-9ecb-5806538781bc")
+		(property "Reference" "R32"
+			(at 586.74 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47"
+			(at 586.74 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 582.422 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 584.2 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 584.2 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7448a332-db54-43ad-b417-2b73203c544b")
+		)
+		(pin "1"
+			(uuid "3b851c9d-042a-45ca-85a4-1c2918362a4c")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 337.82 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61847ded-f644-4cd4-9f82-766581190ff1")
+		(property "Reference" "R8"
+			(at 340.36 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 340.36 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 339.598 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 337.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 337.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd1e9c6f-e06e-4d2f-8232-a27415bf931f")
+		)
+		(pin "1"
+			(uuid "6f932ed2-4bd5-4df3-b246-c8b624cf9fb5")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -17810,6 +19059,216 @@
 			(project "Steuereinheit"
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 533.4 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66f3c012-a0fa-4820-82b2-42ecc026570b")
+		(property "Reference" "R27"
+			(at 535.94 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47"
+			(at 535.94 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 531.622 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 533.4 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 533.4 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1141afa8-0548-4030-aac6-3cd7ac5cdefc")
+		)
+		(pin "1"
+			(uuid "367acc48-54d5-4041-86ff-473f7a435a54")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 513.08 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68d5999b-f666-4f54-a59d-f2471a1007aa")
+		(property "Reference" "R25"
+			(at 515.62 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 515.62 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 511.302 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 513.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 513.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19b896b1-e185-4cad-998e-793d205ec51a")
+		)
+		(pin "1"
+			(uuid "c3585c75-ec0f-4f36-9e0e-9134b94504e3")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 462.28 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6adc4f51-48f2-43ed-8ae5-c7ef6e735a94")
+		(property "Reference" "R15"
+			(at 464.82 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 464.82 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 460.502 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 462.28 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 462.28 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d90823b0-672e-44ef-a7f9-cdbfc66bec9a")
+		)
+		(pin "1"
+			(uuid "3248630c-4bea-4c90-81d4-138b43d5e2f1")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -18361,6 +19820,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 406.4 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75182fe5-8a2d-4025-bc45-ce6cc9aed4b1")
+		(property "Reference" "C13"
+			(at 410.21 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 410.21 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 407.3652 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 406.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 406.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfd48975-a640-43e6-98b4-8bd6e9b30295")
+		)
+		(pin "2"
+			(uuid "800a571a-f3e2-4218-b9fc-3d67e08ca727")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 304.8 264.16 0)
 		(mirror x)
@@ -18501,6 +20030,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 375.92 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "763e7b3f-e738-4bb2-ba55-85bd02d8d4b0")
+		(property "Reference" "C8"
+			(at 379.73 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 379.73 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 376.8852 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 375.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42ed9449-15a0-49bc-8052-1045e14352bd")
+		)
+		(pin "2"
+			(uuid "703f1fa4-b64b-4ba1-a37c-c61b9ffc451c")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 17.78 33.02 0)
 		(unit 1)
@@ -18626,6 +20225,76 @@
 			(project "Steuereinheit"
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 441.96 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "796ec46a-14bc-4438-9d54-070c6cf7ad5a")
+		(property "Reference" "R21"
+			(at 444.5 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47"
+			(at 444.5 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 440.182 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 441.96 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 441.96 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1017b0cd-8fa2-4bc2-9dfa-99298dc74bd2")
+		)
+		(pin "1"
+			(uuid "50fb2240-3733-4231-87b2-ff97d787b6ed")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -19284,6 +20953,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 452.12 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8663b389-a3f8-407b-afbf-b5281fddb34c")
+		(property "Reference" "R14"
+			(at 454.66 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 454.66 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 450.342 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 452.12 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 452.12 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "524cbe1a-be33-4368-86bf-514f7164516b")
+		)
+		(pin "1"
+			(uuid "c3e4415e-825f-48c6-a472-2423936fa1a7")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:LM317L_TO92")
 		(at 185.42 45.72 0)
 		(unit 1)
@@ -19490,7 +21229,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 379.73 270)
+		(at 132.08 401.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19499,7 +21238,7 @@
 		(fields_autoplaced yes)
 		(uuid "8aac23bb-f6cf-46ab-810b-4749d668c321")
 		(property "Reference" "#PWR029"
-			(at 113.03 379.73 0)
+			(at 125.73 401.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19508,7 +21247,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 379.7299 90)
+			(at 128.27 401.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19517,7 +21256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 379.73 0)
+			(at 132.08 401.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19526,7 +21265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 379.73 0)
+			(at 132.08 401.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19535,7 +21274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 379.73 0)
+			(at 132.08 401.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19825,6 +21564,76 @@
 			(project "Steuereinheit"
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 381 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e19c4a0-89e2-40a2-ba79-f36c888c5ba8")
+		(property "Reference" "R13"
+			(at 383.54 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 383.54 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 379.222 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 381 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 381 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a832d2bb-f039-48d2-bcf4-69b6342e1d40")
+		)
+		(pin "1"
+			(uuid "f609b801-20d8-48a1-9948-8de7b417175f")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -20279,6 +22088,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 391.16 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "992b1bbe-8647-4b6b-ae17-eecbad1b418d")
+		(property "Reference" "R16"
+			(at 393.7 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 393.7 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 389.382 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 391.16 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07144074-ead3-4359-8d00-b38d9f960cfd")
+		)
+		(pin "1"
+			(uuid "62d523c3-279c-4261-b7d3-67a990598d9b")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 369.57 270)
 		(unit 1)
@@ -20347,7 +22226,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 124.46 387.35 0)
+		(at 137.16 408.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20356,7 +22235,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bee393a-fbf3-4ad8-8b08-61b4e86e1291")
 		(property "Reference" "J8"
-			(at 127 387.3499 0)
+			(at 139.7 408.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20365,7 +22244,7 @@
 			)
 		)
 		(property "Value" "Muenzeinheit"
-			(at 127 389.8899 0)
+			(at 139.7 411.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20374,7 +22253,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 124.46 387.35 0)
+			(at 137.16 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20383,7 +22262,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 387.35 0)
+			(at 137.16 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20392,7 +22271,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 124.46 387.35 0)
+			(at 137.16 408.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20516,6 +22395,76 @@
 			(project ""
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 411.48 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d6c6c97-183a-47a7-bfc4-45aadf88c4f9")
+		(property "Reference" "R18"
+			(at 414.02 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 414.02 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 409.702 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 411.48 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 411.48 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14228229-1aac-495c-91fb-463ba1a3efb7")
+		)
+		(pin "1"
+			(uuid "ed238467-3c10-4758-ac3d-ef98ee36a7e7")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -21852,6 +23801,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 345.44 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b649dbb4-a336-4661-aea0-7556706c3b9b")
+		(property "Reference" "R11"
+			(at 347.98 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 347.98 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 343.662 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 345.44 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc5a64b3-71c6-44a7-a922-5ca5ca1a3776")
+		)
+		(pin "1"
+			(uuid "8c9eba6b-4159-4bb5-bfd8-8ab4c83268a4")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 411.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b71e74d2-e62b-4e86-aa3b-99bfd2dbc388")
+		(property "Reference" "R29"
+			(at 120.65 405.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 120.65 407.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 120.65 409.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43ae3a41-e7dd-4b0c-9615-5fffb85ca81a")
+		)
+		(pin "1"
+			(uuid "ebb28bd0-73dc-426c-bb8a-4c9a9d4dc296")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 220.98 365.76 270)
 		(unit 1)
@@ -22286,7 +24373,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 166.37 293.37 0)
+		(at 170.18 297.18 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22295,7 +24382,7 @@
 		(fields_autoplaced yes)
 		(uuid "c88971f0-257e-48d1-b179-fc2aec3d4c4b")
 		(property "Reference" "U16"
-			(at 166.37 284.48 0)
+			(at 170.18 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22303,7 +24390,7 @@
 			)
 		)
 		(property "Value" "74LS32"
-			(at 166.37 287.02 0)
+			(at 170.18 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22311,7 +24398,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 166.37 293.37 0)
+			(at 170.18 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22320,7 +24407,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 166.37 293.37 0)
+			(at 170.18 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22329,7 +24416,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 166.37 293.37 0)
+			(at 170.18 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22384,6 +24471,74 @@
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "U16")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 386.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb9dc397-db84-4901-88da-3ab20e560f39")
+		(property "Reference" "R31"
+			(at 54.61 379.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 54.61 382.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 54.61 387.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "893db740-2f50-4bd4-8131-4a4c3f83ce23")
+		)
+		(pin "1"
+			(uuid "914adc79-47c8-49c2-b823-988ff7de177b")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R31")
+					(unit 1)
 				)
 			)
 		)
@@ -22449,6 +24604,142 @@
 			(project "Steuereinheit"
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 388.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc2b06d0-bf08-4d10-8d67-a89c68c70e70")
+		(property "Reference" "R28"
+			(at 62.23 382.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 62.23 384.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 62.23 386.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b99a6f5d-78ff-4739-9d31-a6c6b475dd01")
+		)
+		(pin "1"
+			(uuid "f69605b6-e23e-4626-a3a8-19448ea83a32")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 383.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf2d1cf4-763e-4b81-a33a-b1e283abc5f4")
+		(property "Reference" "R30"
+			(at 46.99 377.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 46.99 379.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 46.99 385.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65c9fd84-1afd-4b07-8132-00afd0d71e3e")
+		)
+		(pin "1"
+			(uuid "5fd4d052-b8a1-46db-a2c9-5f82eebaf3b2")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -22598,6 +24889,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 325.12 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8032f4a-e653-4881-98e8-22eee4848130")
+		(property "Reference" "C4"
+			(at 328.93 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 328.93 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 326.0852 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.12 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 325.12 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d82b4768-cc37-4ab7-85cb-579ce35ef7cc")
+		)
+		(pin "2"
+			(uuid "550006f5-d0d6-4e3a-991d-8044edfc4edd")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS393")
 		(at 97.79 167.64 0)
 		(unit 3)
@@ -22704,6 +25065,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 401.32 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1d777af-7f71-42cc-b9cd-2ae955794321")
+		(property "Reference" "R17"
+			(at 403.86 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 403.86 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 399.542 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 401.32 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 401.32 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9d89e00-bce4-4b65-9df3-ca0c3d70764b")
+		)
+		(pin "1"
+			(uuid "bfb8d5a3-c24b-4fca-9e8d-d62a000c1482")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 391.16 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3b9c352-a8ab-45cd-b81a-542f46a93bb1")
+		(property "Reference" "#PWR060"
+			(at 391.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 391.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 391.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3a80e9a-cda2-4291-9bb1-b3934a44ab82")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 289.56 269.24 0)
 		(unit 1)
@@ -22764,6 +25261,76 @@
 			(project "Steuereinheit"
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 312.42 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4869f98-f985-439a-8452-9ef3452ff73d")
+		(property "Reference" "C3"
+			(at 316.23 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 316.23 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 313.3852 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 312.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d29f1f71-fab0-4793-afcf-57748ba6d8ff")
+		)
+		(pin "2"
+			(uuid "7ac7ae0f-a944-4fa8-b57b-4e4a5be57a60")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -23022,6 +25589,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 523.24 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8376f50-21f7-4a4a-b28f-ce1a93988274")
+		(property "Reference" "R26"
+			(at 525.78 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 525.78 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 521.462 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 523.24 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 523.24 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa6a1ff6-0ea5-4a6a-b528-e1890a64de74")
+		)
+		(pin "1"
+			(uuid "b53ccaec-5d5b-4413-a82e-0dbf4373b936")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 287.02 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e91e7e45-ad26-410e-8423-5530c89b796a")
+		(property "Reference" "C1"
+			(at 290.83 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 290.83 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 287.9852 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 287.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d34b9d9-95f5-4074-8627-7724a03ce131")
+		)
+		(pin "2"
+			(uuid "5dadb0a8-aa85-4177-b67f-ee83eb1771a1")
+		)
+		(instances
+			(project ""
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Audio:YM2149")
 		(at 242.57 64.77 0)
 		(unit 1)
@@ -23272,6 +25979,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 158.75 294.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec78b04d-bfa1-47c2-a884-5ba434784c93")
+		(property "Reference" "D5"
+			(at 159.0675 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SD103"
+			(at 159.0675 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 158.75 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 158.75 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bb42def-8630-4d95-ac12-0b06d7bfddb3")
+		)
+		(pin "2"
+			(uuid "ab26fb8c-3c22-4e04-a03a-69bb427412de")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 322.58 184.15 0)
 		(unit 1)
@@ -23442,6 +26217,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 337.82 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eef4dc27-aaba-45f3-b825-04cf16ac3562")
+		(property "Reference" "C5"
+			(at 341.63 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 341.63 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 338.7852 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 337.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 337.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "562d56d8-90ec-421c-8a8b-e8d9d4fa0605")
+		)
+		(pin "2"
+			(uuid "cb802f8f-7ceb-4325-9bde-18488debf901")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 242.57 34.29 0)
 		(unit 1)
@@ -23502,6 +26347,76 @@
 			(project "Steuereinheit"
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 502.92 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0f8d318-6a7c-4c2f-92fe-b49a9419eb65")
+		(property "Reference" "R24"
+			(at 505.46 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 505.46 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 501.142 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 502.92 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 502.92 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec26bd93-4fa0-4a24-8862-dd88ce1dedb3")
+		)
+		(pin "1"
+			(uuid "12a2c631-41e0-4175-b798-450cd5908320")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -23692,6 +26607,142 @@
 			(project "Steuereinheit"
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 482.6 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3a63ed7-6763-403e-be9e-d9ccdd43fe78")
+		(property "Reference" "R22"
+			(at 485.14 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 485.14 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 480.822 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 482.6 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 482.6 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95160ae1-6d8e-4386-9377-a0b1b9f11d25")
+		)
+		(pin "1"
+			(uuid "b9ddf063-4ebb-46b4-aa3f-d72178b7c051")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 406.4 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f60e405a-84af-4e6c-baa3-cfd5c1f8a002")
+		(property "Reference" "#PWR059"
+			(at 406.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 406.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 406.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 406.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 406.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2b998f5-94e6-4fb9-860f-b292771fa7d6")
+		)
+		(instances
+			(project ""
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -23931,6 +26982,146 @@
 			(project "Steuereinheit"
 				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 375.92 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc8043cb-68a1-4c24-9448-c164141333d7")
+		(property "Reference" "C7"
+			(at 379.73 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 379.73 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 376.8852 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 375.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faf8df2a-f553-4199-854c-cc5457b11804")
+		)
+		(pin "2"
+			(uuid "8e6f7636-0c93-49d5-9e28-4cb9ccff21f4")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 360.68 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "fd2ba21e-9033-4503-86e4-4bc959bac147")
+		(property "Reference" "C6"
+			(at 364.49 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 364.49 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+			(at 359.7148 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 360.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a85362d7-8f26-4c00-970a-996c5142e9b1")
+		)
+		(pin "2"
+			(uuid "dff18cbb-07e1-495a-a2d4-e75bfe27b2d7")
+		)
+		(instances
+			(project "Steuereinheit"
+				(path "/f18b0f09-702c-4d8f-95d7-df7f8e7948eb"
+					(reference "C6")
 					(unit 1)
 				)
 			)
