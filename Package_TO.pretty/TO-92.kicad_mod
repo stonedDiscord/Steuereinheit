@@ -1,0 +1,138 @@
+(footprint "TO-92"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aec8861a-976d-4c03-a229-a6ca1b59b37f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TO-92"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8c85562a-0721-46f9-88bf-211c41b3e4ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82269d92-87b3-4100-ac7c-84f43e244a8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "000be82c-91df-4b18-a114-47c0ccb661e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.905 -2.54)
+		(end 2.54 1.905)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2fa37b3d-68b7-4763-8ff6-4d524ed1ff10")
+	)
+	(fp_arc
+		(start -1.905 -2.54)
+		(mid 3.688008 -3.688008)
+		(end 2.54 1.905)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a2bc1812-c962-4439-a6c1-514642ddff4a")
+	)
+	(fp_poly
+		(pts
+			(xy -1.27 -2.54) (xy 2.54 1.27) (xy 3.175 -3.175)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a42782d6-88fa-405f-bfea-362a64812848")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6b0645ca-88a8-4c3b-bc63-53c40dd45f4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.54)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0adbf19a-33f4-4f27-b82e-92dc4310ef79")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -2.54)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1a901874-ceed-4b1a-b8bc-6ba3fc43f1cc")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "904c0422-72db-49b2-8356-6fec0ad6805e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92.wrl"
+		(offset
+			(xyz 0 2.5 1)
+		)
+		(scale
+			(xyz 1.3 1 1)
+		)
+		(rotate
+			(xyz -0 -0 45)
+		)
+	)
+)
