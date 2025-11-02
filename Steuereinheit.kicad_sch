@@ -14452,6 +14452,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "DTACKN <--> A22 for boot mode high?"
+		(exclude_from_sim no)
+		(at 261.112 119.634 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "076cd66c-4cd9-409d-9d2e-c35df016c8f3")
+	)
 	(text "Serienplan /\nMuenzeinheit II"
 		(exclude_from_sim no)
 		(at 671.83 369.824 0)
@@ -15267,10 +15277,6 @@
 	(no_connect
 		(at 101.6 127)
 		(uuid "919067f1-4b48-4ef7-a15f-26b949f17a76")
-	)
-	(no_connect
-		(at 45.72 187.96)
-		(uuid "9998570a-3b14-4780-8caa-44f23663d7de")
 	)
 	(no_connect
 		(at 45.72 193.04)
@@ -19315,7 +19321,7 @@
 		(uuid "1ba3c1a3-4a63-422c-b255-197249929e69")
 	)
 	(label "OutEMP"
-		(at 563.88 421.64 90)
+		(at 571.5 426.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19915,7 +19921,7 @@
 		(uuid "6d9dd58d-1b9a-4e47-a12e-3c16ce390b52")
 	)
 	(label "ME"
-		(at 571.5 421.64 90)
+		(at 571.5 434.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19945,7 +19951,7 @@
 		(uuid "71885917-dd49-4495-a856-48345132bf54")
 	)
 	(label "OutLI"
-		(at 566.42 421.64 90)
+		(at 571.5 429.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19995,7 +20001,7 @@
 		(uuid "75cc8eb6-2b71-47e5-b99c-8344dceeff54")
 	)
 	(label "nTaktME"
-		(at 556.26 421.64 90)
+		(at 571.5 419.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20025,7 +20031,7 @@
 		(uuid "772c2b31-74ca-477e-8d86-ebb8d55268d0")
 	)
 	(label "EnME"
-		(at 561.34 421.64 90)
+		(at 571.5 424.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20043,6 +20049,16 @@
 			(justify right bottom)
 		)
 		(uuid "7af7dc3b-cdca-41f3-8048-2acaf59068ca")
+	)
+	(label "BOOTMODE"
+		(at 45.72 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7be1cb9b-90bd-4628-8acd-b02853499ea5")
 	)
 	(label "cA7"
 		(at 218.44 181.61 180)
@@ -20193,6 +20209,16 @@
 			(justify right bottom)
 		)
 		(uuid "978fc3c4-61c4-4c7f-93da-3df47f6d3d66")
+	)
+	(label "CLKOUT"
+		(at 179.07 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97c975ea-7803-40cd-8021-8fc388288db3")
 	)
 	(label "IP4"
 		(at 129.54 269.24 180)
@@ -20555,7 +20581,7 @@
 		(uuid "d34e8e57-62c0-4ab8-8a2b-e2821ff85499")
 	)
 	(label "AW"
-		(at 568.96 421.64 90)
+		(at 571.5 431.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44147,7 +44173,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 574.04 421.64 180)
+		(at 571.5 436.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44156,7 +44182,7 @@
 		(fields_autoplaced yes)
 		(uuid "8aac23bb-f6cf-46ab-810b-4749d668c321")
 		(property "Reference" "#PWR029"
-			(at 574.04 415.29 0)
+			(at 577.85 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44165,7 +44191,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 574.0401 417.83 90)
+			(at 575.31 436.8801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44174,7 +44200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 574.04 421.64 0)
+			(at 571.5 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44183,7 +44209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 574.04 421.64 0)
+			(at 571.5 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44192,7 +44218,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 574.04 421.64 0)
+			(at 571.5 436.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45946,7 +45972,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 566.42 426.72 270)
+		(at 566.42 429.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45955,7 +45981,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bee393a-fbf3-4ad8-8b08-61b4e86e1291")
 		(property "Reference" "J8"
-			(at 566.4201 429.26 0)
+			(at 563.88 429.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45964,7 +45990,7 @@
 			)
 		)
 		(property "Value" "Muenzeinheit"
-			(at 563.8801 429.26 0)
+			(at 563.88 426.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45973,7 +45999,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 566.42 426.72 0)
+			(at 566.42 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45982,7 +46008,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 566.42 426.72 0)
+			(at 566.42 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45991,7 +46017,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 566.42 426.72 0)
+			(at 566.42 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48870,7 +48896,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 558.8 421.64 0)
+		(at 571.5 421.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48879,7 +48905,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab5aa712-3998-49b7-b836-cc64a84c0081")
 		(property "Reference" "#PWR093"
-			(at 558.8 425.45 0)
+			(at 567.69 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48888,7 +48914,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 558.8001 418.295 90)
+			(at 574.845 421.6401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48897,7 +48923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 558.8 421.64 0)
+			(at 571.5 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48906,7 +48932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 558.8 421.64 0)
+			(at 571.5 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48915,7 +48941,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 558.8 421.64 0)
+			(at 571.5 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
