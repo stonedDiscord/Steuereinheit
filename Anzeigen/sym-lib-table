@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Display_Character_LiteOn")(type "KiCad")(uri "${KIPRJMOD}/Display_Character_LiteOn.kicad_sym")(options "")(descr ""))
+)
